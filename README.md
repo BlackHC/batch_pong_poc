@@ -1,7 +1,20 @@
-# Batch Pong Proof of Concept
+# Batched pong environment
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1175920.svg)](https://doi.org/10.5281/zenodo.1175920)
 
 Instead of running one environment at a time or one per thread, run everything 
 in batch using numpy on a single core.
+
+```latex
+@misc{batch_pong_poc,
+  author       = {Andreas Kirsch},
+  title        = {Batched pong environment},
+  month        = feb,
+  year         = 2018,
+  doi          = {10.5281/zenodo.1175920},
+  url          = {https://github.com/BlackHC/batch_pong_poc/tree/master}
+}
+```
 
 ## Time per step per environment
 
@@ -10,8 +23,8 @@ in batch using numpy on a single core.
 *Legend*
 
 * atari: using the gym's atari emulator
-* vanilla: simple Python implementation
 * numpy: batched Python implementation using numpy
+* vanilla: simple Python implementation
 
 Measurements against a single core with a single thread. The environment can be 
 run a 1000x faster.
