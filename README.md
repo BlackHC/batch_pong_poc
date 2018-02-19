@@ -6,6 +6,7 @@ in batch using numpy on a single core.
 ## Time per step per environment
 
 ![Benchmark](notebooks/benchmark.png)
+
 *Legend*
 
 * atari: using the gym's atari emulator
