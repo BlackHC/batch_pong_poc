@@ -27,7 +27,8 @@ in batch using numpy on a single core.
 * vanilla: simple Python implementation
 
 Measurements against a single core with a single thread. The environment can be 
-run a 1000x faster.
+run 500x faster (compared to the Atari emulator), respectively 60x faster
+(compared to a vanilla Python implementation).
 
 ## Trade-offs
 
